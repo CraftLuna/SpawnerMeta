@@ -136,7 +136,7 @@ public class LanguageFile extends AbstractFile {
 		put("Prices.type.levels.insufficient", "Not enough experience levels!");
 		put("Prices.type.levels.amount", "%amount% Experience Levels");
 		put("Prices.type.material.insufficient", "Not enough materials!");
-		put("Prices.type.material.amount", "%amount% × %material%");
+		put("Prices.type.material.amount", "%amount% ï¿½ %material%");
 		put("Prices.type.economy.insufficient", "Insufficient funds!");
 		put("Prices.type.economy.amount", "$%amount%");
 		put("Prices.type.flare-tokens.insufficient", "Insufficient tokens!");
@@ -146,9 +146,9 @@ public class LanguageFile extends AbstractFile {
 		put("Prices.insufficient", "<#800000>(!) <#ff8000>%insufficient% <#bfbfbf>[Missing %price%]");
 		
 		put("Holograms.empty.single", "<#ff8000><Empty> <#bfffff-#00ffff>Spawner");
-		put("Holograms.empty.multiple", "<#ffff00>%stack% <#bfbfbf>× <#ff8000><Empty> <#bfffff-#00ffff>Spawner");
+		put("Holograms.empty.multiple", "<#ffff00>%stack% <#bfbfbf>ï¿½ <#ff8000><Empty> <#bfffff-#00ffff>Spawner");
 		put("Holograms.regular.single", "<#bfffff-#00ffff>%name% Spawner");
-		put("Holograms.regular.multiple", "<#ffff00>%stack% <#bfbfbf>× <#bfffff-#00ffff>%name% Spawner");
+		put("Holograms.regular.multiple", "<#ffff00>%stack% <#bfbfbf>ï¿½ <#bfffff-#00ffff>%name% Spawner");
 		put("Holograms.warning", "<#ffff00>( <#800000>!!! <#ffff00>)");
 		
 		put("Shop-buy.name", "<#000000>Spawner Shop <#808080>(<#ff8000>%page_current%<#808080>/<#ff8000>%page_total%<#808080>)");
@@ -161,7 +161,7 @@ public class LanguageFile extends AbstractFile {
 		put("Shop-buy.items.spawner.purchase.second", "<#bfbfbf>Right-click to purchase %amount%");
 		put("Shop-buy.items.spawner.purchase.third", "<#bfbfbf>Shift-left-click to purchase %amount%");
 		put("Shop-buy.items.spawner.purchase.all", "<#bfbfbf>Shift-right-click to purchase maximum");
-		put("Shop-buy.purchase.success", "<#008000>(!) <#00ffff>Purchased <#ffff00-#ffaa00>%amount% × %type%<#00ffff> Spawner(s)!");
+		put("Shop-buy.purchase.success", "<#008000>(!) <#00ffff>Purchased <#ffff00-#ffaa00>%amount% ï¿½ %type%<#00ffff> Spawner(s)!");
 		put("Shop-buy.permission.opening", "<#800000>(!) <#ff8000>You do not have a permission to open this!");
 		put("Shop-buy.permission.purchase", "<#800000>(!) <#ff8000>You do not have a permission to purchase this!");
 		
@@ -243,7 +243,7 @@ public class LanguageFile extends AbstractFile {
 		put("Spawners.view.empty", "<#800000>(!) <#008080>Nothing to view!");
 		put("Spawners.view.disabled", "<#800000>(!) <#008080>Spawner viewing is disabled!");
 		
-		put("Spawners.give.success", "<#008000>(!) <#008080>Added <#00ffff>%amount% <#008080>× <#00ffff>%type% Spawner <#008080>to your inventory!");
+		put("Spawners.give.success", "<#008000>(!) <#008080>Added <#00ffff>%amount% <#008080>ï¿½ <#00ffff>%type% Spawner <#008080>to your inventory!");
 		put("Spawners.give.success-single", "<#008000>(!) <#008080>Added <#00ffff>%type% Spawner <#008080>to your inventory!");
 		
 		put("Locations.header", "<#00ffff>You have placed %count% spawner(s) at:");

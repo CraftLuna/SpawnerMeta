@@ -90,7 +90,7 @@ public final class SpawnerView implements Listener {
 				if(click.isShiftClick() == true) a = 64;
 				else if(click.isRightClick() == true) a = 8;
 				else a = 1;
-				CommandManager.success(player, "Added #0 × #1 to your inventory!", a, type.formated() + " Spawner");
+				CommandManager.success(player, "Added #0 ï¿½ #1 to your inventory!", a, type.formated() + " Spawner");
 				player.getInventory().addItem(DataManager.getSpawners(type, a, false, true).get(0));
 				player.playSound(player.getEyeLocation(), Sound.BLOCK_NOTE_BLOCK_CHIME, 1f, 2f);
 			}
